@@ -1,0 +1,19 @@
+{
+  "name": "xibiz",
+  "vendorId": "0x8492",
+  "productId": "0x0010",
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
+  "matrix": {
+    "rows": 3,
+    "cols": 5
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0","0,1","0,2","0,3",{"x":1}, {"c":"#aaaaaa"},"2,2","2,3"],
+      ["1,0","1,1","1,2","1,3","1,4", {"c":"#aaaaaa"},"2,0","2,1"]
+    ]
+  }
+}
