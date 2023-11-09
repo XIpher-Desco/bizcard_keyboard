@@ -1,4 +1,4 @@
-# XiBix mini keypad
+# XiBiz mini keypad
 ![bizcard_picture](/image/xibiz_pict.jpg)
 
 名刺サイズの小さな左手用キーパッド
