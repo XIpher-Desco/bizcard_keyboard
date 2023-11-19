@@ -43,7 +43,8 @@ https://usevia.app/
 1から構築する手順です
 
 ### パーツ
-[Parts list picture](/image/parts.JPG)
+![Parts list picture](/image/parts.JPG)
+
 - [promicro](https://talpkeyboard.net/items/61f4604eacbcb036350954b6) x1
 - ダイオード 以下２種類のうちどちらか x9
   - [スルーホール](https://talpkeyboard.net/items/59eadbffc8f22c15de001638)
