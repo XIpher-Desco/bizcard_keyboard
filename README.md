@@ -94,7 +94,9 @@ LEDの向きに気をつけてハンダ付けします。
 ### 4. マイコンへの書き込み及びテスト
 
 #### 4.1 ファームウェアの書き込み
-QMK MSYS を使用して、書き込みます。
+[QMK MSYS](https://msys.qmk.fm/) を使用して、書き込みます。
+
+ホームページから、インストーラーを使用してインストールをしておきます。
 
 keyboards\xipher\xibiz を QMK Firmware の keyboards にコピーします
 
