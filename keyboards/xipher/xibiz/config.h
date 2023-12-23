@@ -3,8 +3,8 @@
 
 #pragma once
 
-#define RGB_DI_PIN D3
-#define RGB_MATRIX_LED_COUNT 34
+#define WS2812_DI_PIN D3
+#define RGB_MATRIX_LED_COUNT 4
 #define RGB_MATRIX_KEYPRESSES
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 

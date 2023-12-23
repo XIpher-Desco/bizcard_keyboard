@@ -4,18 +4,23 @@
 名刺サイズの小さな左手用キーパッド
 
 # キーマッピングの方法
+
+VIA を使ったマッピングについては「[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)」のページが非常に詳しくされていますので、参考にしてください。
+
 ## 設定ファイルのダウンロード
 
 https://github.com/XIpher-Desco/bizcard_keyboard/releases
 
 のページを開き、Assetsから xibiz.json をダウンロードします。
 
+12月以降入手した方は、ファームウェアが更新されているため、v1.1 の xibiz_rev2.json
+
 ## キーマッピングの設定
 https://usevia.app/design
 
 このページを開き、 Load Draft Definition の Load をクリックします。
 
-ファイル選択画面になるので、先程ダウンロードした xibiz.json を選択します。
+ファイル選択画面になるので、先程ダウンロードした `xibiz.json/xibiz_rev2.json` を選択します。
 
 画面にチョコレートのような画像が表示されたら、設定完了です。
 
@@ -35,7 +40,19 @@ https://usevia.app/
 
 右４つキーはノブの回転です、１回転するたびに、１回入力されます
 
+rev2 ではノブをクリックして変更するシステムになっています。キーコードを直接入力する必要があります
+
+入力方法は、Anyキーと同じなので、こちらの[Anyキーを投入する](https://salicylic-acid3.hatenablog.com/entry/via-manual#:~:text=%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,Any%E3%82%AD%E3%83%BC%E3%82%92%E6%8A%95%E5%85%A5%E3%81%99%E3%82%8B,-%E5%AE%9F%E3%81%AFQMK%E3%81%A8%E3%81%84%E3%81%86)を参考にしてください。キーコードは[キーコード一覧](https://docs.qmk.fm/#/keycodes)から確認出来ます
+
+
 [参考動画](https://www.youtube.com/watch?v=Ap_3zZtk4TI&loop=0)
+
+
+## デフォルトキーマッピング
+12月以降では、デフォルトキーマッピングが設定されています。
+こちらはクリスタ基準のショートカットです。
+
+![クリスタのショートカットマッピング](image/keymap_rev2.png)
 
 # ビルド
 

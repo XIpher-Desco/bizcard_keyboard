@@ -1,12 +1,12 @@
 {
-    "keyboard_name": "xibiz_pad_rev2",
+    "keyboard_name": "xibiz_pad",
     "manufacturer": "xipher",
     "maintainer": "xipher",
     "url": "",
     "usb": {
         "vid": "0x8492",
-        "pid": "0x0011",
-        "device_version": "1.1.0"
+        "pid": "0x0010",
+        "device_version": "1.0.0"
     },
     "processor": "atmega32u4",
     "bootloader": "caterina",
@@ -29,8 +29,8 @@
     "diode_direction": "COL2ROW",
     "encoder": {
         "rotary": [
-            { "pin_a": "B6", "pin_b": "B2", "resolution": 4},
-            { "pin_a": "B5", "pin_b": "B4", "resolution": 4}
+            { "pin_a": "B2", "pin_b": "B6", "resolution": 4},
+            { "pin_a": "B4", "pin_b": "B5", "resolution": 4}
         ]
     },
     "layouts": {
